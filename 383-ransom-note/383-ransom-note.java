@@ -13,7 +13,7 @@ class Solution {
             if(hm1.containsKey(c)){
                 int val=hm1.get(c);
                 hm1.put(c,val-1);
-                if(hm1.get(c)<=0)
+                if(val==1)
                     hm1.remove(c);
             }else
                 return false;
