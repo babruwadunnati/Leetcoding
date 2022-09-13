@@ -15,10 +15,7 @@ class Solution {
             int n= order.indexOf(word1.charAt(i));
             int m = order.indexOf(word2.charAt(j));
             lex=n-m;
-            // if(n-m){
-            //    System.out.println(word1.charAt(i)+""+word2.charAt(j));
-            //     return false;
-            // }
+            
                 
             i++;
             j++;
@@ -27,9 +24,6 @@ class Solution {
             return word1.length()-word2.length();
         }else
             return lex;
-        // if(word1.length()>word2.length())
-        //     return false;
-        // else 
-        //     return true;
+        
     }
 }
