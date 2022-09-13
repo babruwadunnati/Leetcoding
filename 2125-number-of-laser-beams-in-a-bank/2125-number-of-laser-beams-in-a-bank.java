@@ -9,7 +9,7 @@ class Solution {
                 if(s.charAt(i)=='1') count++;
             }
             if(count>0){
-              ans=ans+prev*count;
+              ans+=prev*count;
               prev=count;  
             }
             
