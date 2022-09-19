@@ -9,7 +9,7 @@ class Solution {
                     for(int g=k+1;g<nums.length;g++){
                         if(nums[g]==sum){
                             count++; 
-                            System.out.println(nums[i]+"+"+nums[j]+"+"+nums[k]+"="+nums[g]);
+                            //System.out.println(nums[i]+"+"+nums[j]+"+"+nums[k]+"="+nums[g]);
                         }
                     }
                 }
