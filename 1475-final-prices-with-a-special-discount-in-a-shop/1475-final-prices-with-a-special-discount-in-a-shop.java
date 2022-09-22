@@ -14,7 +14,7 @@ class Solution {
             if(j==prices.length)
                 ans[i]=prices[i];
         }
-        System.out.println(j);
+    //    System.out.println(j);
         
         ans[prices.length-1]=prices[prices.length-1];
         return ans;
