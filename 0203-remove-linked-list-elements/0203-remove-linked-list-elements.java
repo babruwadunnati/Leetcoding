@@ -18,13 +18,11 @@ class Solution {
         prev=curr;
       
         while(curr!=null){
-            if(curr.val==val){
+            if(curr.val==val)
                 prev.next=curr.next;
-                curr=curr.next;
-            }else{
+            else
                 prev=curr;
-                curr=curr.next;
-            }
+            curr=curr.next;
             
         }
           if(head.val==val){
